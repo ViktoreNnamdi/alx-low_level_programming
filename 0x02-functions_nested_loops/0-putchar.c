@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * main -print putchar
- *
- * Retunrn: 0
+ * main - Print _putchar
+ * Return: Always 0
  */
 int main(void)
 {
-	char x[] = "_putchar";
-	int i;
-
-	for (i = 0; i <= 7; i++)
-		_putchar(x[i]);
-	_putchar('\n')
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
