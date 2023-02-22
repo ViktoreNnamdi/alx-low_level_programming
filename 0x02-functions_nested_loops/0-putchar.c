@@ -3,7 +3,7 @@
 /**
  * main -print putchar
  *
- *
+ * Retunrn: 0
  */
 int main(void)
 {
